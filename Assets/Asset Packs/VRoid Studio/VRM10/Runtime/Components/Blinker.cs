@@ -6,9 +6,9 @@ namespace UniVRM10
     public class Blinker : MonoBehaviour
     {
         [SerializeField] float interval = 5;
-        [SerializeField] float closingTime = 0.3f;
-        [SerializeField] float openingSeconds = 0.03f;
-        [SerializeField] float closeSeconds = 0.3f;
+        [SerializeField] float closingTime = 0.1f;
+        [SerializeField] float openingSeconds = 0.05f;
+        [SerializeField] float closeSeconds = 0.1f;
         Vrm10Instance vrmInstance;
 
         void Awake()
